@@ -7,4 +7,5 @@ class MarketingFirm:
         self.manager = ''
 
     def create_sweepstakes(self):
+
         pass

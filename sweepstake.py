@@ -1,4 +1,5 @@
 from contestant import Contestant
+import random
 
 
 class Sweepstake:
@@ -12,6 +13,9 @@ class Sweepstake:
         pass
 
     def pick_winner(self):
+        pot_of_entries = self.contestants
+        winner = random.choice(pot_of_entries)
+        return winner
         # should return the winner
         pass
 
