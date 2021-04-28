@@ -12,8 +12,7 @@ class Sweepstake:
         self.contestants.append(contestant)
         pass
 
-    def pick_winner(self):
-        group = self.contestants
+    def pick_winner(self, group):
         winner = random.choice(group)
         return winner
         # should return the winner
