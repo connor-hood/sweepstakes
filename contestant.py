@@ -7,4 +7,4 @@ class Contestant:
         self.registration_number = registration_number
 
     def notify(self, winner):
-        pass
+        print(f'{winner} has won the sweepstakes')

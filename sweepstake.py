@@ -5,17 +5,16 @@ import random
 class Sweepstake:
 
     def __init__(self):
-        self.contestants = []
+        self.contestants = set()
         self.name = " "
 
     def register_contestant(self, contestant):
         self.contestants.append(contestant)
-        pass
+        print(f"{contestant} has been entered into the sweepstakes. Good luck!")
 
     def pick_winner(self, group):
         winner = random.choice(group)
         return winner
-        # should return the winner
 
     def print_contestant_info(self, contestant):
         print(f"Contestant's first name:{contestant.first_name}")
