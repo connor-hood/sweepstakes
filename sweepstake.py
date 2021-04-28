@@ -13,11 +13,14 @@ class Sweepstake:
         pass
 
     def pick_winner(self):
-        pot_of_entries = self.contestants
-        winner = random.choice(pot_of_entries)
+        group = self.contestants
+        winner = random.choice(group)
         return winner
         # should return the winner
-        pass
 
-    def print_contestant_info(self, winner):
+    def print_contestant_info(self, contestant):
+        print(f"Contestant's first name:{contestant.first_name}")
+        print(f"Contestant's last name:{contestant.last_name}")
+        print(f"Contestant's email address:{contestant.email_address}")
+        print(f"Contestant's registration #:{contestant.registration_number}")
         pass
