@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../Week_04/Projects/RPSLS/.idea/RPSLS.iml" filepath="$PROJECT_DIR$/../../../Week_04/Projects/RPSLS/.idea/RPSLS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Week_03/Projects/Robots_v_Dinos/.idea/Robots_v_Dinos.iml" filepath="$PROJECT_DIR$/../../../Week_03/Projects/Robots_v_Dinos/.idea/Robots_v_Dinos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sweepstakes_winner.iml" filepath="$PROJECT_DIR$/.idea/sweepstakes_winner.iml" />
+    </modules>
+  </component>
+</project>
