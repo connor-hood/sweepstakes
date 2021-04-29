@@ -11,5 +11,5 @@ class SweepstakesStackManager:
         pass
 
     def get_sweepstakes(self):
-
+        print("Let's get a contest going!")
         pass
