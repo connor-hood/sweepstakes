@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="RPSLS" />
     <orderEntry type="module" module-name="Robots_v_Dinos" />
+    <orderEntry type="module" module-name="design_patterns" />
   </component>
 </module>

@@ -1,4 +1,4 @@
-from sweepstake import Sweepstake
+from marketing_firm_creator import MarketingFirmCreator
 
 
 class MarketingFirm:
