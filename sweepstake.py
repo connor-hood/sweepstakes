@@ -12,8 +12,8 @@ class Sweepstake:
         self.contestants.append(contestant)
         print(f"{contestant} has been entered into the sweepstakes. Good luck!")
 
-    def pick_winner(self, group):
-        winner = random.choice(group)
+    def pick_winner(self):
+        winner = random.choice(self.contestants)
         return winner
 
     def print_contestant_info(self, contestant):

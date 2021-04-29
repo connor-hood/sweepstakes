@@ -15,3 +15,4 @@ class SweepstakesQueueManager:
         print("Let's get a contest going!")
         entry = input("what's your name?")
         contest.register_contestant(entry)
+        print(contest)

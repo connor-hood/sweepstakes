@@ -20,3 +20,4 @@ class MarketingFirmCreator:
         while answer != "stack":
             print("This is not a valid choice")
             self.choose_manager_type()
+
