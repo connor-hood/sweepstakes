@@ -11,8 +11,7 @@ class SweepstakesQueueManager:
         pass
 
     def get_sweepstakes(self):
+        contest = Sweepstake()
         print("Let's get a contest going!")
-        contestants = Sweepstake()
-        contestants.register_contestant("Bill")
-        contestants.register_contestant("Ted")
-        pass
+        entry = input("what's your name?")
+        contest.register_contestant(entry)

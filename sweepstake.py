@@ -5,7 +5,7 @@ import random
 class Sweepstake:
 
     def __init__(self):
-        self.contestants = set()
+        self.contestants = []
         self.name = " "
 
     def register_contestant(self, contestant):

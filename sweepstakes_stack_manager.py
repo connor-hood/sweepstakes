@@ -12,4 +12,7 @@ class SweepstakesStackManager:
 
     def get_sweepstakes(self):
         print("Let's get a contest going!")
+        contestants = Sweepstake()
+        contestants.register_contestant("Bill")
+        contestants.register_contestant("Ted")
         pass
